@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="cadastrar.css">
+	<title>Cadastrar item</title>
+</head>
+<body>
+	<header>
+		<h1>Cadastrar item</h1>
+		<div class="links" id="links">
+			<a href="./../index.html">Lista de itens</a>
+			<a href="">Convite</a>
+		</div>
+	</header>
+	<main>
+		<form id="form" class="form">
+			<h2 id="titulo">Informações</h2>
+			<div class="content" id="content">
+				<div class="foto" id="imagens">
+					<img src="" id="amostra">
+				</div>
+				<div class="entradas" id="entradas">
+					<div class="inputs">
+						<input type="text" id="nome" placeholder="Nome do item" required class="input">
+						<input type="text" id="foto" placeholder="foto de exemplo" class="input">
+						<input type="text" id="link-exemplo" placeholder="Link de exemplo" class="input">
+					</div>
+					<div class="selects">
+						<select id="comodo"></select>
+						<select id="categoria"></select>
+					</div>
+					<div class="checkbox">
+						<label><input type="checkbox" name="presente" id="presente"><p>Presente</p></label>
+						<label><input type="checkbox" name="adquirido" id="adquirido"><p>Adquirido</p></label>
+					</div>
+					<div class="button">
+						<button type="submit">Salvar</button>
+					</div>
+				</div>
+			</div>
+		</form>
+	</main>
+	<script src="cadastrar.js"></script>
+</body>
+</html>

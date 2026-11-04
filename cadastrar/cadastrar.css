@@ -1,0 +1,237 @@
+:root {
+  --cor-1: #664101;
+  --cor-2: #CAB274;
+  --cor-3: #ECCB70;
+  --cor-4: #FFFFCD;
+  --cor-5: #FFFFFF;
+  --cor-font: #b48b58;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-shadow: none;
+}
+
+@font-face {
+  font-family: "Abramo";
+  src: url("./../Assets/fonts/Abramo/Abramo\ Script.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Garamond Italic";
+  src: url("./../Assets/fonts/Garamond/EBGaramond-Italic-VariableFont_wght.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: "Garamond";
+  src: url("./../Assets/fonts/Garamond/EBGaramond-VariableFont_wght.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+  font-family: "Le Jour Script";
+  src: url("./../Assets/fonts/LeJourScript/Le\ Jour\ Script\ Personal\ Use\ Only.otf") format("opentype");
+}
+
+html, body{
+	width: 100vw;
+	height: 100vh;
+	font-family: "Garamond", sans-serif;
+	background-image: 
+	linear-gradient(
+		rgba(255, 212, 95, 0.35),
+		rgba(255, 212, 95, 0.35)
+	),
+	url(./../Assets/midia/imags/background_carta.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+header{
+	width: 100%;
+	height: 20%;
+	background-color: var(--cor-2);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+header > h1{
+	width: 100%;
+	height: 70%;
+	text-align: center;
+	align-content: center;
+	color: var(--cor-1);
+}
+
+.links{
+	width: 60%;
+	height: 30%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.links > a{
+	width: 50%;
+	height: 100%;
+	align-content: center;
+	text-align: center;
+	text-decoration: none;
+	color: var(--cor-1);
+	font-size: large;
+	font-weight: 700;
+}
+
+.links > a:hover{
+	background-color: var(--cor-3);
+}
+
+main{
+	width: 100%;
+	height: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.form{
+	width: 90%;
+	height: 80%;
+	background-color: var(--cor-3);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	border-radius: 20px;
+}
+
+h2{
+	width: 100%;
+	height: 20%;
+	color: var(--cor-1);
+	text-align: center;
+	align-content: center;
+}
+
+.content{
+	width: 100%;
+	height: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row-reverse;
+}
+
+.entradas{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.inputs{
+	width: 100%;
+	height: 45%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: column;
+}
+
+input{
+	width: 70%;
+	height: 15px;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: var(--cor-4);
+	color: var(--cor-1);
+}
+
+.selects{
+	width: 79%;
+	height: 20%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.selects > select{
+	width: 45%;
+	height: 30px;
+	padding: 5px;
+	border-radius: 10px;
+	background-color: var(--cor-4);
+	color: var(--cor-1);
+}
+
+.checkbox{
+	width: 100%;
+	height: 10%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+label{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+label > p{
+	font-weight: 700;
+	color: var(--cor-1);
+}
+
+.button{
+	width: 100%;
+	height: 25%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.button > button{
+	width: 70%;
+	height: 30px;
+	padding: 5px;
+	border-radius: 10px;
+	background-color: var(--cor-2);
+	color: var(--cor-1);
+}
+
+.button > button:hover{
+	background-color: var(--cor-1);
+	color: var(--cor-2);
+}
+
+.button > button:active{
+	background-color: var(--cor-4);
+	color: var(--cor-1);
+}
+
+.foto{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.foto > img{
+	width: 80%;
+	height: 80%;
+	background-color: var(--cor-4);
+	border-radius: 10px;
+}
