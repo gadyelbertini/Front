@@ -103,7 +103,7 @@ main{
 	justify-content: center;
 }
 
-.content{
+.conteudo{
 	width: 90%;
 	height: 90%;
 	background-color: var(--cor-3);
@@ -160,19 +160,27 @@ hr{
 	border-bottom: solid var(--cor-1) 1px;
 }
 
-.item > img{
+.infos{
+	width: 70%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.infos > img{
 	width: 45px;
 	height: 45px;
 	background-color: var(--cor-4);
 }
 
-.item > h3{
-	width: 30%;
+.infos > h3{
+	width: 50%;
 	margin-left: 10px;
 }
 
-.item > p{
-	width: 15%;
+.infos > p{
+	width: 25%;
 }
 
 .interacao{
@@ -186,6 +194,9 @@ hr{
 .check{
 	width: 60%;
 	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .check > label{
@@ -193,6 +204,7 @@ hr{
 	height: 50%;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 }
 
 .imagines{
@@ -206,4 +218,157 @@ hr{
 .imagines > button{
 	width: 35px;
 	height: 35px;
+}
+
+.fundo{
+	width: 100%;
+	height: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(50, 50, 50, 0.5);
+	position: absolute;
+	display: none;
+}
+
+.preto{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 2;
+}
+
+.form{
+	width: 60%;
+	height: 70%;
+	background-color: var(--cor-3);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	border-radius: 20px;
+	position: absolute;
+	z-index: 3;
+}
+
+h2{
+	width: 100%;
+	height: 20%;
+	color: var(--cor-1);
+	text-align: center;
+	align-content: center;
+}
+
+.content{
+	width: 100%;
+	height: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row-reverse;
+}
+
+.entradas{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.inputs{
+	width: 100%;
+	height: 45%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: column;
+}
+
+input{
+	width: 70%;
+	height: 15px;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: var(--cor-4);
+	color: var(--cor-1);
+}
+
+.selects{
+	width: 79%;
+	height: 20%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.selects > select{
+	width: 45%;
+	height: 30px;
+	padding: 5px;
+	border-radius: 10px;
+	background-color: var(--cor-4);
+	color: var(--cor-1);
+}
+
+.checkbox{
+	width: 100%;
+	height: 10%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+label{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+label > p{
+	font-weight: 700;
+	color: var(--cor-1);
+}
+
+.button{
+	width: 100%;
+	height: 25%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.button > button{
+	width: 70%;
+	height: 30px;
+	padding: 5px;
+	border-radius: 10px;
+	background-color: var(--cor-2);
+	color: var(--cor-1);
+}
+
+.button > button:hover{
+	background-color: var(--cor-1);
+	color: var(--cor-2);
+}
+
+.button > button:active{
+	background-color: var(--cor-4);
+	color: var(--cor-1);
+}
+
+.foto{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.foto > img{
+	width: 80%;
+	height: 80%;
+	background-color: var(--cor-4);
+	border-radius: 10px;
 }
