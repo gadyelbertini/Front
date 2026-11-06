@@ -42,7 +42,9 @@ function renderizarItens(itens) {
         lista.innerHTML += `
             <div class="item">
                 <div class="infos">
-                    <img src="${item.foto_exemplo}">
+                    <div class="image">
+                        <img src="${item.foto_exemplo}">
+                    </div>
                     <h3>${item.nome}</h3>
                     <p>${item.comodo}</p>
                     <p>${item.categoria}</p>
@@ -180,7 +182,9 @@ async function editar(id) {
                 <div class="content" id="content">
 
                     <div class="foto" id="imagens">
-                        <img src="${item.foto_exemplo}" id="amostra">
+                        <div class="imagees">
+                            <img src="${item.foto_exemplo}" id="amostra">
+                        </div>
                     </div>
 
                     <div class="entradas" id="entradas">

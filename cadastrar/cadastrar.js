@@ -78,8 +78,6 @@ function mudança() {
 		entradas.style.width = "100%";
 
 		links.style.width = "100%";
-
-		foto.style.width = `${foto.offsetHeight}px`;
 	} else {
 		form.style.width = "50%";
 		content.style.flexDirection = "row-reverse";
@@ -93,8 +91,6 @@ function mudança() {
 
 		entradas.style.height = "100%";
 		entradas.style.width = "50%";
-
-		foto.style.height = `${foto.offsetWidth}px`;
 	}
 }
 
